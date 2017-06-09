@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+
+    <Appenders>
+        <File name="FILE" fileName="/data/log/Life360/Life360.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}\t%C{1}:%L\t%-5level - %m%n"/>
+        </File>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}\t%C{1}:%L\t%-5level - %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.truongnguyen" level="debug"/>
+
+        <Root level="trace">
+            <!-- Thêm log vào file FILE được định nghĩa ở trên-->
+            <AppenderRef ref="FILE" level="DEBUG"/>
+            
+            <!-- Thêm log vào console được định định STDOTUT ở trên-->
+            <AppenderRef ref="STDOUT" level="DEBUG"/>
+           
+        </Root>
+    </Loggers>
+
+</Configuration>

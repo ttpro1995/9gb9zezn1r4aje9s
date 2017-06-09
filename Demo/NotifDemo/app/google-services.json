@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "720694378505",
+    "firebase_url": "https://life360-816b0.firebaseio.com",
+    "project_id": "life360-816b0",
+    "storage_bucket": "life360-816b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720694378505:android:4b40977a4d012cba",
+        "android_client_info": {
+          "package_name": "vn.edu.hcmus.familylocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720694378505-ku0svdtbrvlck8o38ervtntjai1s6sda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.hcmus.familylocator",
+            "certificate_hash": "6fb61d39a364c390d291179452bf08814b816fd3"
+          }
+        },
+        {
+          "client_id": "720694378505-9sjt8bf8vt1pamnoipuuvidk5iph7ke9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBksDFgkOLByumPs9hKHkfozDcHLc50NJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720694378505-9sjt8bf8vt1pamnoipuuvidk5iph7ke9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

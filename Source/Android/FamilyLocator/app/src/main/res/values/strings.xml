@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Family Locator</string>
+    <string name="geo_api_key">AIzaSyDys8HbcUMvAnprd6XoPBj-hGgnI9X29q0</string>
+    <string name="static_map_api_key">AIzaSyC8uuky1nl5Sz7gc9upMon4yzt5jzCjFow</string>
+</resources>
